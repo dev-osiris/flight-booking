@@ -45,11 +45,11 @@ class employee		        	//for employee details
  cout<<"No of passengers\n";
  cin>>no_of_tickets;
  cout<<"\nEnter your(6 digit) numeric account no.";
-  cin>>accno;
-  cout<<"\nEnter your numeric PIN code ";
-  cin>>pin;
-  clrscr();
-  cout<<"\nYour payment is recieved. \n ";
+ cin>>accno;
+ cout<<"\nEnter your numeric PIN code ";
+ cin>>pin;
+ clrscr();
+ cout<<"\nYour payment is recieved. \n ";
  }
  void book::display1()                    //display of details for class book
  {
